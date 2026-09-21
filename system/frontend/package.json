@@ -1,0 +1,33 @@
+{
+  "name": "enterprise-product-analysis-agent-ui",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 127.0.0.1",
+    "build": "vue-tsc --noEmit && vite build",
+    "preview": "vite preview --host 127.0.0.1",
+    "test": "vitest run"
+  },
+  "dependencies": {
+    "axios": "^1.12.0",
+    "element-plus": "^2.11.0",
+    "gsap": "^3.15.0",
+    "ogl": "^1.0.11",
+    "pinia": "^3.0.3",
+    "three": "^0.180.0",
+    "vue": "^3.5.20",
+    "vue-router": "^4.5.1"
+  },
+  "devDependencies": {
+    "@types/node": "^24.3.0",
+    "@types/three": "^0.185.4",
+    "@vitejs/plugin-vue": "^6.0.1",
+    "@vue/test-utils": "^2.5.0",
+    "jsdom": "^30.0.1",
+    "typescript": "~5.9.2",
+    "vite": "^7.1.3",
+    "vitest": "^5.0.1",
+    "vue-tsc": "^3.0.6"
+  }
+}

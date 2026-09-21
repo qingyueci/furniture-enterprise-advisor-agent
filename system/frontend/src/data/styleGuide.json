@@ -1,0 +1,400 @@
+{
+  "title": "风格示例",
+  "notice": "例图用于快速识别风格的色彩、材质、线条和空间气质；实际项目需要结合户型、预算、采光与生活方式进一步取舍。",
+  "quick": [
+    {
+      "goal": "耐看、容易落地",
+      "styles": "现代简约、原木风、现代东方、宋式美学"
+    },
+    {
+      "goal": "温暖放松",
+      "styles": "奶油风、北欧风、原木风、禅意东方"
+    },
+    {
+      "goal": "成熟高级",
+      "styles": "意式现代、轻奢风、装饰艺术、海派东方"
+    },
+    {
+      "goal": "复古文化感",
+      "styles": "中古风、民国风、明式美学、暗黑学院"
+    },
+    {
+      "goal": "强烈艺术辨识度",
+      "styles": "孟菲斯、解构主义、超现实主义、后现代主义"
+    },
+    {
+      "goal": "东方氛围",
+      "styles": "新中式、宋式美学、江南园林、敦煌风"
+    }
+  ],
+  "groups": [
+    {
+      "id": "popular",
+      "title": "热门大众风格",
+      "items": [
+        {
+          "id": "style-01-01",
+          "title": "现代简约",
+          "description": "黑白灰与干净直线为主，减少装饰，依靠比例、收纳和灯光建立秩序。",
+          "image": "/assets/styles/style-01-01.webp"
+        },
+        {
+          "id": "style-01-02",
+          "title": "奶油风",
+          "description": "米白、奶咖与圆润家具组合，光线柔和，整体温暖而松弛。",
+          "image": "/assets/styles/style-01-02.webp"
+        },
+        {
+          "id": "style-01-03",
+          "title": "原木风",
+          "description": "浅木、藤编、棉麻和绿植共同营造自然、亲切的生活感。",
+          "image": "/assets/styles/style-01-03.webp"
+        },
+        {
+          "id": "style-01-04",
+          "title": "极简风",
+          "description": "比普通简约更克制，强调大留白、隐藏结构、少量家具与完整块面。",
+          "image": "/assets/styles/style-01-04.webp"
+        },
+        {
+          "id": "style-01-05",
+          "title": "侘寂风",
+          "description": "突出斑驳灰泥、旧木、粗陶和不完美肌理，安静、朴素且有时间感。",
+          "image": "/assets/styles/style-01-05.webp"
+        },
+        {
+          "id": "style-01-06",
+          "title": "法式风",
+          "description": "石膏线、拱门、黄铜和复古家具结合，讲究轴线、比例与优雅细节。",
+          "image": "/assets/styles/style-01-06.webp"
+        },
+        {
+          "id": "style-02-01",
+          "title": "中古风",
+          "description": "胡桃木、皮革、低矮家具和暖光，呈现20世纪中期现代主义气质。",
+          "image": "/assets/styles/style-02-01.webp"
+        },
+        {
+          "id": "style-02-02",
+          "title": "北欧风",
+          "description": "白墙、浅木、柔软织物和充足自然光，实用、清爽且有亲和力。",
+          "image": "/assets/styles/style-02-02.webp"
+        },
+        {
+          "id": "style-02-03",
+          "title": "工业风",
+          "description": "水泥、红砖、黑钢和外露结构构成粗犷、直接的城市感。",
+          "image": "/assets/styles/style-02-03.webp"
+        },
+        {
+          "id": "style-02-04",
+          "title": "轻奢风",
+          "description": "现代空间中加入石材、金属、玻璃和皮革，精致但不过度堆砌。",
+          "image": "/assets/styles/style-02-04.webp"
+        },
+        {
+          "id": "style-02-05",
+          "title": "意式现代",
+          "description": "深木、石材、皮革与雕塑感家具并置，色彩克制，气质成熟。",
+          "image": "/assets/styles/style-02-05.webp"
+        },
+        {
+          "id": "style-02-06",
+          "title": "包豪斯",
+          "description": "以功能主义和几何秩序为核心，常用钢管家具及红黄蓝原色点缀。",
+          "image": "/assets/styles/style-02-06.webp"
+        }
+      ]
+    },
+    {
+      "id": "art",
+      "title": "小众艺术风格",
+      "items": [
+        {
+          "id": "style-03-01",
+          "title": "孟菲斯",
+          "description": "高饱和撞色、不规则几何、波点和锯齿，活泼而反常规。",
+          "image": "/assets/styles/style-03-01.webp"
+        },
+        {
+          "id": "style-03-02",
+          "title": "粗野主义",
+          "description": "突出清水混凝土、裸露结构和巨大体量，具有原始力量感。",
+          "image": "/assets/styles/style-03-02.webp"
+        },
+        {
+          "id": "style-03-03",
+          "title": "新粗野主义",
+          "description": "在粗粝结构中加入数字化色彩和夸张模块，直接、醒目、年轻。",
+          "image": "/assets/styles/style-03-03.webp"
+        },
+        {
+          "id": "style-03-04",
+          "title": "解构主义",
+          "description": "通过倾斜、错位、切割和碎片化结构打破稳定秩序。",
+          "image": "/assets/styles/style-03-04.webp"
+        },
+        {
+          "id": "style-03-05",
+          "title": "达达主义",
+          "description": "使用现成物、拼贴和荒诞组合，强调偶然性与反传统表达。",
+          "image": "/assets/styles/style-03-05.webp"
+        },
+        {
+          "id": "style-04-01",
+          "title": "超现实主义",
+          "description": "通过悬浮、尺度错位和不合逻辑的空间关系制造梦境感。",
+          "image": "/assets/styles/style-04-01.webp"
+        },
+        {
+          "id": "style-04-02",
+          "title": "波普艺术",
+          "description": "漫画网点、大众消费符号和高饱和原色形成鲜明视觉冲击。",
+          "image": "/assets/styles/style-04-02.webp"
+        },
+        {
+          "id": "style-04-03",
+          "title": "新艺术运动",
+          "description": "植物、花卉与藤蔓般的流动曲线贯穿家具、玻璃和铁艺。",
+          "image": "/assets/styles/style-04-03.webp"
+        },
+        {
+          "id": "style-04-04",
+          "title": "装饰艺术 Art Deco",
+          "description": "对称几何、阶梯形、放射纹与黑金材质共同塑造都会华丽感。",
+          "image": "/assets/styles/style-04-04.webp"
+        },
+        {
+          "id": "style-04-05",
+          "title": "蒸汽波",
+          "description": "古典雕塑、粉紫渐变、棕榈树和复古数字网格构成怀旧未来感。",
+          "image": "/assets/styles/style-04-05.webp"
+        },
+        {
+          "id": "style-05-01",
+          "title": "赛博朋克",
+          "description": "霓虹、雨夜反光、屏幕和裸露设备构成“高科技、低生活”的未来都市感。",
+          "image": "/assets/styles/style-05-01.webp"
+        },
+        {
+          "id": "style-05-02",
+          "title": "生物形态设计",
+          "description": "借鉴细胞、骨骼、菌丝和贝壳曲线，形成连续、柔软的有机空间。",
+          "image": "/assets/styles/style-05-02.webp"
+        },
+        {
+          "id": "style-05-03",
+          "title": "暗黑学院",
+          "description": "深木、墨绿、旧书、黄铜灯和古典艺术营造神秘学术氛围。",
+          "image": "/assets/styles/style-05-03.webp"
+        },
+        {
+          "id": "style-05-04",
+          "title": "极繁主义",
+          "description": "大量图案、织物、艺术品和饱和色叠加，以丰富层次代替留白。",
+          "image": "/assets/styles/style-05-04.webp"
+        },
+        {
+          "id": "style-05-05",
+          "title": "后现代主义",
+          "description": "挪用古典符号并加入夸张尺度、戏谑造型和跨风格拼贴。",
+          "image": "/assets/styles/style-05-05.webp"
+        }
+      ]
+    },
+    {
+      "id": "chinese",
+      "title": "中式设计风格",
+      "items": [
+        {
+          "id": "style-06-01",
+          "title": "传统中式",
+          "description": "强调轴线、对称与礼序，常见深色木作、屏风、格栅和书画陈设。",
+          "image": "/assets/styles/style-06-01.webp"
+        },
+        {
+          "id": "style-06-02",
+          "title": "新中式",
+          "description": "保留东方结构与意境，以现代家具、简化格栅和轻量材质适配当代生活。",
+          "image": "/assets/styles/style-06-02.webp"
+        },
+        {
+          "id": "style-06-03",
+          "title": "现代东方",
+          "description": "减少直接的传统符号，用自然材料、光影和留白表达东方气韵。",
+          "image": "/assets/styles/style-06-03.webp"
+        },
+        {
+          "id": "style-06-04",
+          "title": "宋式美学",
+          "description": "清雅、简素、文人化，常用汝窑色、细木、花器和疏朗陈设。",
+          "image": "/assets/styles/style-06-04.webp"
+        },
+        {
+          "id": "style-06-05",
+          "title": "明式美学",
+          "description": "重视结构、比例和榫卯之美，家具线条简练而骨架清晰。",
+          "image": "/assets/styles/style-06-05.webp"
+        },
+        {
+          "id": "style-06-06",
+          "title": "唐风",
+          "description": "色彩浓郁、造型圆润、气度雍容，适合壁画色、藻井和华丽纹样。",
+          "image": "/assets/styles/style-06-06.webp"
+        },
+        {
+          "id": "style-06-07",
+          "title": "汉唐古典",
+          "description": "体量厚重、轴线明确，强调仪式感、深木构和宏阔空间。",
+          "image": "/assets/styles/style-06-07.webp"
+        },
+        {
+          "id": "style-06-08",
+          "title": "禅意东方",
+          "description": "石、竹、木、静水与柔和阴影组合，突出安静和精神体验。",
+          "image": "/assets/styles/style-06-08.webp"
+        },
+        {
+          "id": "style-06-09",
+          "title": "江南园林",
+          "description": "白墙黛瓦、月洞门、漏窗、竹石与水景形成借景、框景关系。",
+          "image": "/assets/styles/style-06-09.webp"
+        },
+        {
+          "id": "style-07-01",
+          "title": "国潮风",
+          "description": "将中国红、玉石绿、祥云、神兽等传统元素转译为年轻化视觉语言。",
+          "image": "/assets/styles/style-07-01.webp"
+        },
+        {
+          "id": "style-07-02",
+          "title": "民国风",
+          "description": "墨绿、花砖、胡桃木、黄铜和磨砂玻璃交织出近代海派气质。",
+          "image": "/assets/styles/style-07-02.webp"
+        },
+        {
+          "id": "style-07-03",
+          "title": "敦煌风",
+          "description": "以赭石、石青、石绿、飞天飘带和藻井几何表现丝路艺术感。",
+          "image": "/assets/styles/style-07-03.webp"
+        },
+        {
+          "id": "style-07-04",
+          "title": "东方侘寂",
+          "description": "融合东方自然观与侘寂材质，突出老木、灰泥、陶土和枯枝。",
+          "image": "/assets/styles/style-07-04.webp"
+        },
+        {
+          "id": "style-07-05",
+          "title": "非遗民艺风",
+          "description": "蓝印花布、竹编、漆器、剪纸和扎染等手工艺成为主要视觉锚点。",
+          "image": "/assets/styles/style-07-05.webp"
+        },
+        {
+          "id": "style-07-06",
+          "title": "东方自然主义",
+          "description": "原石、木、庭院植物和自然光共同建立室内外连续关系。",
+          "image": "/assets/styles/style-07-06.webp"
+        },
+        {
+          "id": "style-07-07",
+          "title": "海派东方",
+          "description": "中式家具与 Art Deco、彩色玻璃和黄铜并置，精致而兼容中西。",
+          "image": "/assets/styles/style-07-07.webp"
+        },
+        {
+          "id": "style-07-08",
+          "title": "岭南风",
+          "description": "灰砖、骑楼、满洲窗、花砖和热带植物构成通风、轻盈的地域气质。",
+          "image": "/assets/styles/style-07-08.webp"
+        },
+        {
+          "id": "style-07-09",
+          "title": "新古典中式",
+          "description": "在对称、深木和传统纹样基础上简化细节，呈现正式、稳重的现代中式。",
+          "image": "/assets/styles/style-07-09.webp"
+        }
+      ]
+    },
+    {
+      "id": "mixed",
+      "title": "混搭组合",
+      "items": [
+        {
+          "id": "style-08-01",
+          "title": "现代简约 × 宋式美学",
+          "description": "现代空间负责干净骨架，宋式器物与低饱和色补充东方气质；适合客厅、书房和会所。",
+          "image": "/assets/styles/style-08-01.webp"
+        },
+        {
+          "id": "style-08-02",
+          "title": "原木风 × 禅意东方",
+          "description": "以浅木和棉麻提供温度，用竹、石与静景控制情绪；适合住宅、民宿和茶空间。",
+          "image": "/assets/styles/style-08-02.webp"
+        },
+        {
+          "id": "style-08-03",
+          "title": "中古风 × 新中式",
+          "description": "胡桃木和皮革建立复古底色，格栅、明式比例与水墨艺术品负责文化识别。",
+          "image": "/assets/styles/style-08-03.webp"
+        },
+        {
+          "id": "style-08-04",
+          "title": "侘寂风 × 江南园林",
+          "description": "灰泥、旧木与粗陶负责肌理，月洞门、竹影和框景负责空间叙事。",
+          "image": "/assets/styles/style-08-04.webp"
+        },
+        {
+          "id": "style-09-01",
+          "title": "装饰艺术 × 民国风",
+          "description": "黑金、墨绿和放射几何结合民国家具、花砖与玻璃灯，适合餐厅、酒店和商业空间。",
+          "image": "/assets/styles/style-09-01.webp"
+        },
+        {
+          "id": "style-09-02",
+          "title": "极简主义 × 敦煌",
+          "description": "整体保持大留白，只用少量赭石、石青、飘带和藻井几何作为焦点，避免主题化堆砌。",
+          "image": "/assets/styles/style-09-02.webp"
+        },
+        {
+          "id": "style-09-03",
+          "title": "粗野主义 × 东方禅意",
+          "description": "混凝土体块提供力量，竹、石、静水和低木平台负责缓和，适合艺术空间和高端民宿。",
+          "image": "/assets/styles/style-09-03.webp"
+        }
+      ]
+    }
+  ],
+  "principles": [
+    {
+      "title": "确定主次",
+      "description": "采用“主风格 70%＋辅助风格 30%”，不要平均分配所有元素。"
+    },
+    {
+      "title": "只保留共同点",
+      "description": "优先寻找两种风格在材质、色彩、比例或精神气质上的交集。"
+    },
+    {
+      "title": "每种风格只选一至两个锚点",
+      "description": "例如宋式用细木与花器，敦煌用矿物色与飘带，不必复制全部符号。"
+    },
+    {
+      "title": "先统一材质，再加入符号",
+      "description": "墙、地、顶和固定家具保持一致，装饰元素最后进入。"
+    },
+    {
+      "title": "控制综合色数量",
+      "description": "一般保持三种主色和一至两种点缀色，避免因混搭造成视觉噪声。"
+    }
+  ],
+  "featured": [
+    "style-01-01",
+    "style-02-05",
+    "style-03-01",
+    "style-04-04",
+    "style-06-04",
+    "style-07-07",
+    "style-08-01",
+    "style-09-01"
+  ]
+}

@@ -1,0 +1,56 @@
+# Local secrets and runtime data
+.env
+.env.*
+!.env.example
+.venv/
+node_modules/
+dist/
+__pycache__/
+.pytest_cache/
+*.egg-info/
+*.pyc
+*.tsbuildinfo
+*.log
+*.db
+*.sqlite
+*.sqlite3
+*.ndjson
+*.pem
+*.key
+*.p12
+
+# Local data, indexes, uploads, and generated artifacts
+/system/data/
+/system/backend/data/*
+!/system/backend/data/README.md
+!/system/backend/data/.gitkeep
+**/data/uploads/*
+**/data/temp/*
+**/data/models/*
+**/.codex-artifacts/
+**/.rivet/
+**/.workbuddy/
+/verification/
+/outputs/
+/参考论文/
+
+# Evaluation snapshots and local release records
+**/*-results.json
+**/*-verdict.json
+**/*-summary.md
+**/*-semantic-review.json
+**/*-calls.ndjson
+# Private evaluation code and fixtures intentionally excluded from public release
+/system/backend/app/evaluation/*
+/system/backend/scripts/business_simulation_suite.py
+/system/backend/scripts/board_demo.py
+/system/backend/scripts/restore_conversation.py
+/system/backend/scripts/stage_*.py
+/system/backend/scripts/v*.py
+/system/backend/scripts/verify_board*.py
+/system/backend/tests/test_v*.py
+/system/backend/tests/test_stage_*.py
+/system/backend/tests/test_board_demo.py
+/system/backend/tests/test_business_simulation_evaluation.py
+/system/backend/tests/test_retrieval_cleaning.py
+/system/backend/tests/test_source_governance.py

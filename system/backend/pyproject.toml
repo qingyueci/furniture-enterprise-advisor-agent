@@ -1,0 +1,29 @@
+[build-system]
+requires = ["setuptools>=75"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "enterprise-product-analysis-agent"
+version = "0.6.0"
+description = "多维度安全管控的家具企业顾问Agent系统设计：阶段 6"
+requires-python = ">=3.11,<3.12"
+dependencies = [
+  "fastapi>=0.115,<1", "pydantic>=2.10,<3", "pydantic-settings>=2.7,<3",
+  "SQLAlchemy>=2.0,<2.1", "alembic>=1.14,<2", "psycopg[binary]>=3.2,<4",
+  "pgvector>=0.3,<1", "uvicorn>=0.34,<1",
+  "pwdlib[argon2]>=0.2,<1", "PyJWT>=2.10,<3", "python-multipart>=0.0.20,<1",
+  "PyMuPDF>=1.26,<2", "python-docx>=1.2,<2", "openpyxl>=3.1,<4", "openai>=1.100,<3",
+  "sentence-transformers>=3.4,<6", "huggingface-hub>=0.28,<1",
+]
+
+[project.optional-dependencies]
+test = ["pytest>=8,<10", "httpx>=0.28,<1"]
+
+[tool.setuptools.packages.find]
+include = ["app*", "scripts*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]
+markers = ["local_embedding: downloads/loads the real local embedding model; excluded from ordinary runs"]
+addopts = "-m 'not local_embedding'"
